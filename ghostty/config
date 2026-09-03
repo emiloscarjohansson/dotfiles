@@ -1,0 +1,18 @@
+font-family = JetBrainsMono Nerd Font
+
+font-size = 16
+font-feature = liga
+
+theme = TokyoNight
+
+window-padding-x = 12
+window-padding-y = 12
+background-opacity = 0.85
+background-blur = 20
+
+cursor-style = block
+
+scrollback-limit = 10000
+
+keybind = command+shift+c=copy_to_clipboard
+keybind = command+shift+v=paste_from_clipboard
