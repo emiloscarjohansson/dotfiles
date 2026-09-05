@@ -14,5 +14,3 @@ cursor-style = block
 
 scrollback-limit = 10000
 
-keybind = command+shift+c=copy_to_clipboard
-keybind = command+shift+v=paste_from_clipboard

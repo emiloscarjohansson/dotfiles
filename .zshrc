@@ -52,3 +52,4 @@ autoload -Uz compinit
 (( ${+_comps[docker]} )) || compinit
 # End of Docker CLI completions
 alias compsec="docker run -it --rm -v .:/workdir -w /workdir compsec"
+alias rm='rm -i'
