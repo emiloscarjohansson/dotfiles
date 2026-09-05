@@ -53,3 +53,7 @@ autoload -Uz compinit
 # End of Docker CLI completions
 alias compsec="docker run -it --rm -v .:/workdir -w /workdir compsec"
 alias rm='rm -i'
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
