@@ -24,7 +24,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 . "$HOME/.local/bin/env"
-eval "$(starship init zsh)"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias ls="eza --icons"
@@ -57,3 +56,4 @@ alias rm='rm -i'
 . "$HOME/.atuin/bin/env"
 
 eval "$(atuin init zsh)"
+eval "$(starship init zsh)"
