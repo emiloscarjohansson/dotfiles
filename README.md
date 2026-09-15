@@ -8,6 +8,7 @@ Personal macOS configuration files.
   fzf, and aliases (`eza`, `bat`, `rg`, `lazygit`, ...)
 - **`ghostty/`** — [Ghostty](https://ghostty.org) terminal config
 - **`nvim/`** — Neovim config based on [LazyVim](https://www.lazyvim.org)
+- **`starship/`** —  
 
 ## Usage
 
@@ -15,6 +16,7 @@ Symlink the files you want into place, e.g.:
 
 ```sh
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/starship.toml
 ln -s ~/dotfiles/ghostty ~/.config/ghostty
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ```
