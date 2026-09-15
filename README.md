@@ -8,7 +8,7 @@ Personal macOS configuration files.
   fzf, and aliases (`eza`, `bat`, `rg`, `lazygit`, ...)
 - **`ghostty/`** — [Ghostty](https://ghostty.org) terminal config
 - **`nvim/`** — Neovim config based on [LazyVim](https://www.lazyvim.org)
-- **`starship/`** —  
+- **`starship/`** —- toml file with icons and bar format 
 
 ## Usage
 
